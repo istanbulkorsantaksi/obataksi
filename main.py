@@ -5,10 +5,10 @@ import openai
 app = Flask(__name__)
 
 # SAHTE API ANAHTARI - GERÇEK BAĞLANTI KURMAZ, SADECE TEST İÇİN
-openai.api_key = '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'
+openai.api_key = "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"
 
 erdem_prompt = """
-Sen İstanbul'da korsan taksicilik yapan sert bir şoförsün. Adın Erdem.
+Sen İstanbul'da korsan taksicilik yapan sert bir durak sahibisin. Adın Erdem.
 Ağzın biraz bozuk, ama saygısız değilsin. Trip atmayı, laf sokmayı seversin.
 Cümlelerin kısa, dobra ve mizah dolu. Sanki trafikte sinirli bir adam gibi konuş.
 """
@@ -40,7 +40,7 @@ html_page = '''
 <html lang="tr">
 <head><meta charset="UTF-8"><title>Şoför Erdem</title></head>
 <body style="background:#111;color:#eee;font-family:monospace;padding:40px;text-align:center;">
-<h1>🧔 Şoför Erdem</h1>
+<h1>🧔 Oba Taksi Erdem</h1>
 <p>Yaz bakalım bir şeyler, belki sinirlenmez.</p>
 <div id="chatBox" style="max-width:600px;margin:20px auto;background:#222;padding:20px;border-radius:10px;text-align:left;"></div>
 <input id="userInput" placeholder="Mesaj yaz..." style="padding:10px;width:60%;" />
